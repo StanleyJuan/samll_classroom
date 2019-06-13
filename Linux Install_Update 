@@ -1,0 +1,43 @@
+Linux Install and Update software can separated into several situations, 
+
+
+1. If we do not have the software, we have to install it at first.
+
+We can find it on the software's official website
+
+
+Under CenOS, Redhat, Debian and Ubuntu we can do like this:
+
+wget https://www.python.org/ftp/python/3.6.1/Python-3.6.1.tgz 
+
+
+#############################################################
+
+# use wget command before the website to download the *.tgz document
+
+# *.tgz is same as *.zip in windows
+
+# in this case ignore the download locaton
+
+
+
+2. In other case, we want to find these documents on the CentOS, Debian official website
+
+we can use
+
+
+yum install [package_name]
+# CentOS and Redhat
+
+
+
+
+apt install [package_name]
+# Debian and Ubuntu
+
+
+
+
+
+
+
